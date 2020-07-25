@@ -6,10 +6,4 @@ import dagger.hilt.android.components.ActivityRetainedComponent
 
 @Module
 @InstallIn(ActivityRetainedComponent::class)
-object ServiceModule {
-
-//    @Provides
-//    fun provideAuthService(): AuthService =
-//    myunvely.create()
-
-}
+object ServiceModule
