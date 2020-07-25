@@ -17,15 +17,4 @@ class MainFragment : BaseViewModelFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? = inflater.inflate(R.layout.fragment_main, container, false)
-
-    override fun onBindViewModels() {
-        super.onBindViewModels()
-        listOf(1,2,3).toFlowable()
-            .observeOnMain()
-            .subscribeWithErrorLogger {
-                println(it)
-            }
-            .addToDisposables()
-
-    }
 }

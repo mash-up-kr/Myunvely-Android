@@ -6,13 +6,14 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7508259d-7b93-4fac-879c-9b1336fdbdfa" name="Default Changelist" comment="" />
+    <list default="true" id="7508259d-7b93-4fac-879c-9b1336fdbdfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mashup/myunvely/ui/main/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mashup/myunvely/ui/main/MainFragment.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_Q" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -177,9 +178,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="550" y="317" width="692" height="486" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1595664396574" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1595675206738">
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1595678280128">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1595675206738" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1595678280128" />
   </component>
 </project>
