@@ -12,5 +12,5 @@ import dagger.hilt.android.components.ApplicationComponent
 object ApplicationModule {
 
     @Provides
-    fun provideMoimSharedPreferences(): MyunvelySharedPreferences = MyunvelySharedPreferencesImpl
+    fun provideMyunvelySharedPreferences(): MyunvelySharedPreferences = MyunvelySharedPreferencesImpl
 }

@@ -61,16 +61,14 @@ object OkHttpClientProvider {
     ) {
         cache = createCache(context, cacheDirectoryName, calculateMaxSize)
         okHttpClient =
-            buildOkHttpClient(context, cache, preferences, Interceptors.httpLoggingInterceptor)
+            buildOkHttpClient(cache, preferences, Interceptors.httpLoggingInterceptor)
         okHttpClientWithoutAuthorization = buildOkHttpClient(
-            context = context,
             cache = cache,
             preferences = preferences,
             loggingInterceptor = Interceptors.httpLoggingInterceptor,
             hasAuthorization = false
         )
         okHttpClientForMediaUpload = buildOkHttpClient(
-            context = context,
             cache = cache,
             preferences = preferences,
             loggingInterceptor = Interceptors.httpLoggingInterceptorBasic,
@@ -108,7 +106,6 @@ object OkHttpClientProvider {
     }
 
     private fun buildOkHttpClient(
-        context: Context,
         cache: Cache,
         preferences: MyunvelySharedPreferences,
         loggingInterceptor: HttpLoggingInterceptor,
