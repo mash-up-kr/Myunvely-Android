@@ -7,4 +7,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Widget.Sample.LoadingView" parent="">
+        <item name="indicator">@drawable/primary_oval</item>
+        <item name="radius">6dp</item>
+        <item name="indicatorPadding">8dp</item>
+    </style>
 </resources>
