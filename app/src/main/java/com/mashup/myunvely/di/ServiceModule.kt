@@ -9,6 +9,7 @@ import dagger.hilt.android.components.ActivityRetainedComponent
 object ServiceModule {
 
 //    @Provides
-//    fun provideAuthService(): AuthService = MoimRetrofit.create()
+//    fun provideAuthService(): AuthService =
+//    myunvely.create()
 
 }
