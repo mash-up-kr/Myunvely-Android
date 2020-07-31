@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.ShavingEnrollActivity">
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="10.68dp"
+        android:layout_height="16.82dp"
+        android:layout_marginStart="26.17dp"
+        android:layout_marginTop="20.09dp"
+        android:contentDescription="@string/StringValue"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtShaving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20.09dp"
+        android:text="@string/shaving_blade"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="17dp"
+        android:background="#EAE9E7"
+        app:layout_constraintTop_toBottomOf="@id/txtShaving" />
+
+    <ImageView
+        android:id="@+id/imgTitle"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/title_border"
+        android:contentDescription="@string/StringValue"
+        app:layout_constraintTop_toBottomOf="@id/view" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/title"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view" />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/title_hint"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#535251"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle" />
+
+    <ImageView
+        android:id="@+id/imgStart"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/title_border"
+        android:contentDescription="@string/StringValue"
+        app:layout_constraintTop_toBottomOf="@id/imgTitle" />
+
+    <TextView
+        android:id="@+id/txtStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/start_date"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgTitle" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:textColor="#535251"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtStart" />
+
+    <ImageView
+        android:id="@+id/imgCalender"
+        android:layout_width="13.5dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="39.5dp"
+        android:contentDescription="@string/StringValue"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgTitle" />
+
+    <ImageView
+        android:id="@+id/imgPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/title_border"
+        android:contentDescription="@string/StringValue"
+        app:layout_constraintTop_toBottomOf="@id/imgStart" />
+
+    <TextView
+        android:id="@+id/txtPeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/exchange_period"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgStart" />
+
+    <TextView
+        android:id="@+id/txtChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:text="@string/choice"
+        android:textColor="#535251"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPeriod" />
+
+    <ImageView
+        android:id="@+id/imgUp"
+        android:layout_width="9.24dp"
+        android:layout_height="6.74dp"
+        android:layout_marginTop="27.45dp"
+        android:layout_marginEnd="41.38dp"
+        android:contentDescription="@string/StringValue"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgStart" />
+
+    <ImageView
+        android:id="@+id/imgDown"
+        android:layout_width="9.24dp"
+        android:layout_height="6.74dp"
+        android:layout_marginEnd="41.38dp"
+        android:contentDescription="@string/StringValue"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgUp" />
+
+    <Button
+        android:id="@+id/btnEnroll"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_border"
+        android:text="@string/enroll"
+        android:textColor="#A2ABAD"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/btnEnrollClick"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_click_border"
+        android:text="@string/enroll"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,4 +7,5 @@
     <string name="exchange_period">교체주기</string>
     <string name="choice">선택해 주세요.</string>
     <string name="enroll">등록하기</string>
+    <string name="StringValue">이미지를 열리지 않습니다.</string>
 </resources>
